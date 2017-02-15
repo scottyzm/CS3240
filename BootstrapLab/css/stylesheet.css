@@ -1,0 +1,181 @@
+div.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+}
+
+ul#main-nav {
+    font-family: 'Roboto Mono', "Helvetica Neue", Helvetica, Arial, monospace, sans-serif;
+    font-style: thin;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    vertical-align: center;
+    line-height: 60px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+li#main-nav {
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+li#main-nav.active a {
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+a#main-nav {
+    text-decoration: none;
+    color: white;
+}
+
+#landing {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    height: 300px;
+}
+
+#landing .intro-text {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#landing .intro-text .intro-lead-in {
+    font-family: 'Nunito Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 50px;
+}
+
+#landing .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+#services {
+    padding-top: 30px;
+}
+
+.section-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 1.6em;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.service-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+#contact {
+    padding-bottom: 20px;
+}
+
+.contact-wrapper {
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.item {
+    max-height: 400px;
+}
+
+@media (min-width: 768px) {
+    #landing {
+        padding-top: 150px;
+        height: 100%;
+    }
+    #landing .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin: 0px;
+    }
+    #landing .intro-text .intro-lead-in {
+        letter-spacing: 12px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    #landing .intro-text .intro-heading {
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
+    ul#main-nav {
+        font-size: 18px;
+    }
+    li#main-nav {
+        padding: 0, 20px, 20px, 0px;
+    }
+    .item {
+        min-height: 500px;
+        max-height: 600px;
+    }
+    #service-container {
+        padding: 20px;
+    }
+    #services {
+        padding-top: 30px;
+    }
+    #food-text {
+        padding-top: 0px;
+    }
+    .contact {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #food-text {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1224px) {
+    .item {
+        min-height: 500px;
+        max-height: 900px;
+    }
+    #food-text {
+        padding-top: 120px;
+    }
+}
