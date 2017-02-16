@@ -14,7 +14,7 @@ body {
 ul#main-nav {
     font-family: 'Roboto Mono', "Helvetica Neue", Helvetica, Arial, monospace, sans-serif;
     font-style: thin;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     list-style: none;
     text-align: center;
@@ -42,6 +42,7 @@ li#main-nav.active a {
 a#main-nav {
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 
 #landing {
@@ -69,7 +70,7 @@ a#main-nav {
     letter-spacing: 6px;
     font-size: 14px;
     line-height: 22px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #landing .intro-text .intro-heading {
@@ -88,7 +89,7 @@ a#main-nav {
 .section-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 300;
     letter-spacing: 3px;
 }
@@ -115,7 +116,7 @@ p {
 }
 
 .item {
-    max-height: 400px;
+    max-height: 250px;
 }
 
 @media (min-width: 768px) {
